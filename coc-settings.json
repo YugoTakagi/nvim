@@ -1,0 +1,15 @@
+{
+    "jedi": {
+        "enable": true,
+        "startupMessage": false,
+        "executable.command": "/home/envy/.local/bin/jedi-language-server",
+        "//" : "/home/envy/.pyenv/shims/jedi-language-server"
+    },
+
+    "clangd": {
+        "command": "clangd",
+        "rootPatterns": ["complie_flags.txt", "complie_commands.json"],
+        "filetypes": ["c", "cpp", "objc", "objcpp"]
+    },
+    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/12.0.1/clangd_12.0.1/bin/clangd"
+}
